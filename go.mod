@@ -133,7 +133,7 @@ require (
 
 replace github.com/daeuniverse/dae => ./dae-core
 
-replace github.com/daeuniverse/outbound => github.com/olicesx/outbound v0.0.0-20260317085837-fcce9f9ab71e
+replace github.com/daeuniverse/outbound => github.com/olicesx/outbound v0.0.0-20260322073445-d602747c6db8
 
 replace github.com/daeuniverse/quic-go => github.com/olicesx/quic-go v0.0.0-20260226044315-bb65418d151a
 
