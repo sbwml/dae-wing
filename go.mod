@@ -4,7 +4,7 @@ go 1.26.0
 
 require (
 	github.com/daeuniverse/dae v0.2.0
-	github.com/daeuniverse/outbound v0.0.0-20250722064253-00c4fbb38759
+	github.com/daeuniverse/outbound v0.0.0-sticky-ip.0.20260401154811-cc1a217490f9
 	github.com/glebarez/sqlite v1.8.0
 	github.com/go-co-op/gocron v1.37.0
 	github.com/golang-jwt/jwt/v5 v5.0.0
@@ -95,6 +95,8 @@ require (
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
 	github.com/robfig/cron/v3 v3.0.1 // indirect
 	github.com/safchain/ethtool v0.7.0 // indirect
+	github.com/sagernet/sing v0.6.0 // indirect
+	github.com/sagernet/sing-shadowtls v0.2.0 // indirect
 	github.com/samber/lo v1.52.0 // indirect
 	github.com/samber/oops v1.21.0 // indirect
 	github.com/seiflotfy/cuckoofilter v0.0.0-20240715131351-a2f2c23f1771 // indirect
@@ -133,7 +135,7 @@ require (
 
 replace github.com/daeuniverse/dae => ./dae-core
 
-replace github.com/daeuniverse/outbound => github.com/olicesx/outbound v0.0.0-20260322073445-d602747c6db8
+replace github.com/daeuniverse/outbound => github.com/olicesx/outbound v0.0.0-sticky-ip.0.20260401154811-cc1a217490f9
 
 replace github.com/daeuniverse/quic-go => github.com/olicesx/quic-go v0.0.0-20260226044315-bb65418d151a
 
